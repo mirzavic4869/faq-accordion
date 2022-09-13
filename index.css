@@ -35,6 +35,7 @@ body {
 	text-align: center;
 	margin-top: -90px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 .accordion-img {
@@ -113,14 +114,19 @@ body {
 	font-size: 1.6rem;
 }
 @media screen and (min-width: 992px) {
-	.accordion {
+	.container {
 		display: flex;
-		height: 0;
-		width: 920px;
+		width: 85%;
+		margin: 50px;
+		height: 100vh;
 	}
+	/* .accordion {
+		height: 0;
+	} */
 	.accordion-img {
-		width: 420px;
-		top: 88px;
+		width: 600px;
+		top: 20px;
+		left: -150px;
 		position: relative;
 	}
 
@@ -129,11 +135,13 @@ body {
 	}
 
 	.content-accordion {
-		margin-top: 85px;
+		margin-right: 500px;
+		padding-right: 60px;
 	}
 
 	.title {
-		margin-top: 50px;
+		margin-top: 90px;
 		font-size: 3rem;
+		text-align: left;
 	}
 }
